@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Generate creative business names, jokes, captions, and slogans instantly with GetToday, brought to you by Jansher Ameer. Explore a world of endless possibilities for your business and entertainment needs.">
+  <meta name="keywords"
+    content="GetToday, business name generator, joke generator, caption generator, slogan generator, Jansher Ameer, creative names, humor, marketing, entertainment">
+  <meta name="author" content="Jansher Ameer">
+  <meta name="robots" content="index, follow">
+  <meta name="googlebot" content="index, follow">
+  <meta name="og:title" property="og:title"
+    content="GetToday - Your Source for Creative Business Names, Jokes, Captions, and Slogans">
+  <meta name="og:description" property="og:description"
+    content="Generate unique business names, hilarious jokes, captivating captions, and catchy slogans instantly with GetToday, created by Jansher Ameer. Unleash creativity for your business and entertainment endeavors.">
+  <meta name="og:type" property="og:type" content="website">
+  <meta name="og:locale" property="og:locale" content="en_US">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="GetToday - Creative Business Names, Jokes, Captions, and Slogans Generator">
+  <meta name="twitter:description"
+    content="Generate unique business names, hilarious jokes, captivating captions, and catchy slogans instantly with GetToday, created by Jansher Ameer. Unleash creativity for your business and entertainment endeavors.">
+  <meta name="twitter:creator" content="@YourTwitterHandle">
+  <link rel="shortcut icon" href="gettoday.png" type="image/x-icon">
+  <title>GetToday - Creative Business Names, Jokes, Captions, and Slogans Generator</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+
+
+  <nav class="navbar navbar-expand-lg bg-warning">
+    <div class="container-fluid">
+      <a class="navbar-brand"> <b>GetToday</b></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#business"> Get Business Name</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#slogan">Get Slogan</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#caption">Get Captions</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#joke">Get Jokes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container-fluid">
+    <div class="card text-center my-2">
+      <div class="card-header bg-success text-bg-danger">
+        Discover Top Business Names
+      </div>
+      <div class="card-body">
+        <h5 class="card-title" id="businessNames"></h5>
+        <a class="btn btn-info" onclick="GeneratebusinessNames()">Generate Now</a>
+      </div>
+    </div>
+    <div class="card text-center my-2">
+      <div class="card-header bg-warning text-bg-danger">
+        Get the Best Slogans
+      </div>
+      <div class="card-body">
+        <h5 class="card-title" id="businessSlogans"></h5>
+        <a class="btn btn-info" onclick="GeneratebusinessSlogans()">Generate Now</a>
+      </div>
+    </div>
+    <div class="card text-center my-2">
+      <div class="card-header bg-success text-bg-danger">
+        Get the Best Captions
+      </div>
+      <div class="card-body">
+        <h5 class="card-title" id="captions"></h5>
+        <a class="btn btn-info" onclick="Generatecaptions()">Generate Now</a>
+      </div>
+    </div>
+    <div class="card text-center my-2">
+      <div class="card-header bg-warning text-bg-danger">
+        Get the Best Jokes
+      </div>
+      <div class="card-body">
+        <h5 class="card-title" id="jokes"></h5>
+        <a class="btn btn-info" onclick="Generatejokes()">Generate Now</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <div id="about" class="card text-center">
+
+      <div class="card-body">
+        <h5 class="card-title">About</h5>
+        <p class="card-text">"Welcome to <b>Get Today</b>, crafted by <a
+            href="https://jansherameer12.github.io/jansherameer/">Jansher Ameer</a> – a proficient web developer
+          passionate about turning ideas into reality. As a seasoned developer skilled in HTML, CSS, Tailwind CSS,
+          Bootstrap, JavaScript (including jQuery, React.js, Next.js), Node.js, Express.js, MongoDB, and even WordPress,
+          I've created this platform with one goal: to spark inspiration.
+
+          Whether you're seeking creative ideas, looking for witty jokes, or exploring innovative business names, <b>Get
+            Today</b> is your go-to source. Let's turn ideas into action and make your ventures even more extraordinary.
+
+          Join me on this journey of creativity and exploration!
+        </p>
+        <a href="https://jansherameer12.github.io/jansherameer/" class="btn btn-success">Website</a>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="container-fluid my-4">
+    <form action="https://formspree.io/f/mwkddjak" method="POST">
+      <h2 class="text-center">Contact Us</h2>
+      <div class="form-group">
+        <input type="text" name="name" class="form-control my-2" id="floatingInput" placeholder="Name">
+        <input type="email" name="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+      </div>
+      <div class="form-floating my-2">
+        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+          style="height: 100px"></textarea>
+        <label for="floatingTextarea2">Message</label>
+      </div>
+      <div class="text-center"><button type="submit" class="btn btn-success">Submit</button></div>
+    </form>
+  </div>
+  <div class="container">
+    <footer class="pt-3 mt-4">
+      <p class="text-center text-muted">© 2023 | GetToday - Developed by Jansher Ameer</p>
+    </footer>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+  </script>
+  <script src="script.js"></script>
+</body>
+
+</html>
